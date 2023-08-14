@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family : Verdana, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+  height: 50.4px;
+  border-bottom: solid 1px #bfbfbf;
+  margin-bottom: 0;
+}
+#register{
+  width: 50%;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid #eee7e7;
+  box-sizing: border-box;
+  max-width: 400px;
+  margin-top: 80px;
+}
+div{
+  display: inline-grid;
+  width: 100%;
+  margin-top:12px;
+}
+label{
+  margin-left: Opx;
+  margin-right: auto;
+
+}
+input{
+  min-width: 0;
+  margin-top: 7px;
+  height: 32px;
+}
+#submit{
+
+  width: 100%;
+  margin-top: 10px;
+  background-color: #66f;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  height: 26px;
+  margin-top:20px;
+
+}

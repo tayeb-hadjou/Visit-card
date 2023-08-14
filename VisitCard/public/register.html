@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>login/register</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/register.css"/>
+
+  <script src="../javascripts/register.js" defer="true"></script>
+</head>
+
+<body>
+  <h1>Mes Cartes de Visites</h1>
+  <form id="register">
+      <div>
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="company">Companie:</label>
+        <input type="text" id="company" name="company">
+      </div>
+      <div>
+        <label for="phone">Telephone:</label>
+        <input type="text" id="phone" name="phone">
+      </div>
+      <div>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password">
+      </div>  
+      <button type="submit" id="submit">valider</button>
+    </form>
+    <div id="message"></div>
+  <div>
+    <a href="/access/login">vous avez déjà un compte ?</a>
+  </div>
+
+  <div id="problem"></div>
+
+</body>
+
+</html>

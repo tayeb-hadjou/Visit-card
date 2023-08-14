@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family : Verdana, Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    height: 50.4px;
+    border-bottom: solid 1px #bfbfbf;
+    margin-bottom: 0;
+    background: linear-gradient(to top, #f2f7ee 0%, #f2f2f2 100%);
+  }
+  #User{
+    display: inline-flex;
+    /*avoir un backgroud en degrade de gris claire de la gauche*/
+    background: linear-gradient(to right, #a8baee 0%, #f2f2f2 50%,#ffffff 100%);
+    margin-top:0; 
+    height: 45px;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #UserStart{
+    display: inline-flex;
+    margin-top: 0;
+    height: 77px;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 74px;
+  }
+  .UserName{
+    font-size: 44px;
+    margin-left: 18px;
+    margin-top: 3px;
+  }
+  .UserCompany{
+    padding-top: 29px;
+    margin-left: 12px;
+  }
+  #UserEnd{
+    display: inline-flex;
+    margin-right: 18px;
+    padding-top: 9px;
+  }
+  .UserEmail{
+    padding-top: 12px;
+    margin-right: 6px;
+  }
+  #logout{
+    cursor: pointer;
+    color: #4b4bb5;
+    margin: 12px 4px 10px 23px;
+  }
+
+  strong{
+    /* enlever le gras et mettre en italique */
+    font-weight: normal;
+    font-size: 30px;
+  }
+  #presentation {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    margin-top: 0;
+  }
+   #addCard{
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #eee7e7;
+    box-sizing: border-box;
+    max-width: 400px;
+  }
+  #createCard>div{
+      display: inline-grid;
+      width: 100%;
+      margin-top:12px;
+
+  }
+  #register-p{
+  margin:0 auto;
+  }
+  
+  label{
+    margin-left: Opx;
+    margin-right: auto;
+  
+  }
+  input{
+    min-width: 0;
+    margin-top: 7px;
+    height: 32px;
+  
+  }
+  button#submit{
+  
+    width: 100%;
+    margin-top: 10px;
+    background-color: #66f;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+  }
+  #content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+  #displayCreateCard{
+    width: 300px;
+    margin-right: 45px;
+  }
+  #addCaridList{
+    cursor: pointer;
+  }
+  .card{
+    font-family: 'Courier New', Courier, monospace;
+    width:500px;
+    height: 200px;
+    display: flex;
+    padding:10px;
+    /*ajoute un bordure et effet shadow*/
+    border: 1px solid #eee7e7;
+    box-shadow: 0 0 10px rgba(85, 134, 187, 0.5);
+    margin-bottom: 30px;
+
+  }
+  #image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin:0 auto;
+  }
+  #carteUp{
+  width: 35%;  
+  }
+  .name{
+    margin-top:21px;
+    font-size: 20px;
+  }
+  #carteDown{
+
+    width: 100%
+  }
+  #left{
+    text-align: initial;
+    height: 100px;
+  }
+  .company{
+    padding: 36px 10px 10px 10px;
+    font-size: 26px;
+    margin-left: 22px;
+  
+  }
+  #right{
+
+    height: 50%;
+    text-align: initial;
+    font-size: 18px;
+    margin-left: 32px;
+  }
+  #right>div{
+  padding-top:15px; 
+  }
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  

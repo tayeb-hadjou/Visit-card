@@ -1,0 +1,62 @@
+extends layout
+
+append headblock
+  script(src="/javascripts/account.js")
+  link(rel="stylesheet" href="/stylesheets/account.css")
+
+block content
+  h1= "Mes Cartes de Visites"
+  div#User
+    div#UserStart
+      div.UserName #{user.name}
+      div.UserCompany #{user.company}
+    div#UserEnd
+      div.UserEmail #{user.email}
+      div#logout Logout
+  div#content
+    div#cards
+      div#cardsList
+        div#PersonnelCard
+        div.card
+            div#carteUp
+              div#image 
+                img(src="/images/test.webp")
+              div.name #{user.name}
+            div#carteDown
+              div#left
+                div.company #{user.company}
+              div#right
+                div.email Email: #{user.email}
+                div.phone Tél: #{user.phone}
+        each card in cards
+          div.card
+            div#carteUp
+              div#image 
+                img(src="/images/test.webp")
+              div.name #{card.name}
+            div#carteDown
+              div#left
+                div.company #{card.company}
+              div#right
+                div.email Email: #{card.email}
+                div.phone Tél: #{card.phone}
+    div#displayCreateCard
+      div#addCard 
+        div#addCaridList
+          h2 Ajouter une carte
+        form#createCard
+          div
+            label(for="name") Name:
+            input(type="text" name="name" id="cardName")
+          div
+            label(for="email") Email:
+            input(type="text" name="email" id="cardEmail")
+          div
+            label(for="phone") Phone:
+            input(type="text" name="phone" id="cardPhone")
+          div
+            label(for="company") Company:
+            input(type="text" name="company" id="cardCompany")
+          div
+            Button(type="submit" id="submit") Add Card
+    
