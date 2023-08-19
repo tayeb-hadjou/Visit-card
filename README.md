@@ -20,7 +20,7 @@ the main page displays other users' business cards.
 1. Project recovery:
 to recover the project execute the following command:
 ```bash
-git clone https://github.com/tayeb-hadjou/Visit-card
+git clone https://github.com/tayeb-hadjou/Visit-card.git
 
 ```
 2. installation / launch of the server:
